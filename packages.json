@@ -36,6 +36,10 @@
     "url": "https://github.com/mitchelloharawild/vitae"
   },
   {
+    "package": "monash",
+    "url": "https://github.com/numbats/monash"
+  },
+  {
     "package": "oddstream",
     "url": "https://github.com/pridiltal/oddstream"
   },
@@ -54,6 +58,10 @@
   {
     "package": "compenginets",
     "url": "https://github.com/robjhyndman/compenginets"
+  },
+  {
+    "package": "cricketdata",
+    "url": "https://github.com/robjhyndman/cricketdata"
   },
   {
     "package": "demography",
@@ -96,8 +104,12 @@
     "url": "https://github.com/robjhyndman/MEFM-package"
   },
   {
-    "package": "monash",
-    "url": "https://github.com/numbats/monash"
+    "package": "ozbabynames",
+    "url": "https://github.com/robjhyndman/ozbabynames"
+  },
+  {
+    "package": "rcademy",
+    "url": "https://github.com/robjhyndman/rcademy"
   },
   {
     "package": "thief",
@@ -110,18 +122,6 @@
   {
     "package": "tsfeatures",
     "url": "https://github.com/robjhyndman/tsfeatures"
-  },
-  {
-    "package": "cricketdata",
-    "url": "https://github.com/ropenscilabs/cricketdata"
-  },
-  {
-    "package": "ozbabynames",
-    "url": "https://github.com/ropenscilabs/ozbabynames"
-  },
-  {
-    "package": "rcademy",
-    "url": "https://github.com/ropenscilabs/rcademy"
   },
   {
     "package": "gravitas",

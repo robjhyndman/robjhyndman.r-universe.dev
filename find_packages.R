@@ -3,6 +3,7 @@ source("software_functions.R")
 
 # Github packages I've coauthored
 github <- c(
+  "AndriSignorell/DescTools",
   "AU-BURGr/ozdata",
   "earowang/hts",
   "earowang/sugrrants",
@@ -12,12 +13,14 @@ github <- c(
   "jforbes14/eechidna",
   "mitchelloharawild/fasster",
   "mitchelloharawild/vitae",
+  "numbats/monash",
   "pridiltal/oddstream",
   "pridiltal/oddwater",
   "pridiltal/stray",
   "robjhyndman/addb",
   "robjhyndman/anomalous",
   "robjhyndman/compenginets",
+  "robjhyndman/cricketdata",
   "robjhyndman/demography",
   "robjhyndman/expsmooth",
   "robjhyndman/fma",
@@ -28,13 +31,11 @@ github <- c(
   "robjhyndman/hdrcde",
   "robjhyndman/Mcomp",
   "robjhyndman/MEFM-package",
-  "numbats/monash",
+  "robjhyndman/ozbabynames",
+  "robjhyndman/rcademy",
   "robjhyndman/thief",
   "robjhyndman/tscompdata",
   "robjhyndman/tsfeatures",
-  "ropenscilabs/cricketdata",
-  "ropenscilabs/ozbabynames",
-  "ropenscilabs/rcademy",
   "sayani07/gravitas",
   "sevvandi/lookout",
   "thiyangt/seer",
@@ -45,7 +46,6 @@ github <- c(
   "tidyverts/tsibbledata",
   "verbe039/bfast",
   "ykang/gratis",
-  "AndriSignorell/DescTools",
   NULL
 )
 get_rjh_packages(github) %>%
