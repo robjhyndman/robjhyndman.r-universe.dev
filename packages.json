@@ -1,0 +1,30 @@
+[
+    {
+        "package": "forecast",
+        "url": "https://github.com/robjhyndman/forecast"
+    },
+    {
+        "package": "hts",
+        "url": "https://github.com/earowang/hts"
+    },
+    {
+        "package": "gratis",
+        "url": "https://github.com/ykang/gratis"
+    },
+    {
+        "package": "tsibble",
+        "url": "https://github.com/tidyverts/tsibble"
+    },
+    {
+        "package": "tsibbledata",
+        "url": "https://github.com/tidyverts/tsibbledata"
+    },
+    {
+        "package": "feasts",
+        "url": "https://github.com/tidyverts/feasts"
+    }
+    {
+        "package": "fable",
+        "url": "https://github.com/tidyverts/fable"
+    }
+]
