@@ -1,30 +1,184 @@
 [
-    {
-        "package": "forecast",
-        "url": "https://github.com/robjhyndman/forecast"
-    },
-    {
-        "package": "hts",
-        "url": "https://github.com/earowang/hts"
-    },
-    {
-        "package": "gratis",
-        "url": "https://github.com/ykang/gratis"
-    },
-    {
-        "package": "tsibble",
-        "url": "https://github.com/tidyverts/tsibble"
-    },
-    {
-        "package": "tsibbledata",
-        "url": "https://github.com/tidyverts/tsibbledata"
-    },
-    {
-        "package": "feasts",
-        "url": "https://github.com/tidyverts/feasts"
-    },
-    {
-        "package": "fable",
-        "url": "https://github.com/tidyverts/fable"
-    }
+  {
+    "package": "ozdata",
+    "url": "https://github.com/AU-BURGr/ozdata"
+  },
+  {
+    "package": "hts",
+    "url": "https://github.com/earowang/hts"
+  },
+  {
+    "package": "sugrrants",
+    "url": "https://github.com/earowang/sugrrants"
+  },
+  {
+    "package": "binb",
+    "url": "https://github.com/eddelbuettel/binb"
+  },
+  {
+    "package": "tsdl",
+    "url": "https://github.com/FinYang/tsdl"
+  },
+  {
+    "package": "Rsfar",
+    "url": "https://github.com/haghbinh/sfar"
+  },
+  {
+    "package": "eechidna",
+    "url": "https://github.com/jforbes14/eechidna"
+  },
+  {
+    "package": "fasster",
+    "url": "https://github.com/mitchelloharawild/fasster"
+  },
+  {
+    "package": "vitae",
+    "url": "https://github.com/mitchelloharawild/vitae"
+  },
+  {
+    "package": "oddstream",
+    "url": "https://github.com/pridiltal/oddstream"
+  },
+  {
+    "package": "oddwater",
+    "url": "https://github.com/pridiltal/oddwater"
+  },
+  {
+    "package": "stray",
+    "url": "https://github.com/pridiltal/stray"
+  },
+  {
+    "package": "addb",
+    "url": "https://github.com/robjhyndman/addb"
+  },
+  {
+    "package": "compenginets",
+    "url": "https://github.com/robjhyndman/compenginets"
+  },
+  {
+    "package": "demography",
+    "url": "https://github.com/robjhyndman/demography"
+  },
+  {
+    "package": "expsmooth",
+    "url": "https://github.com/robjhyndman/expsmooth"
+  },
+  {
+    "package": "fma",
+    "url": "https://github.com/robjhyndman/fma"
+  },
+  {
+    "package": "forecast",
+    "url": "https://github.com/robjhyndman/forecast"
+  },
+  {
+    "package": "fpp",
+    "url": "https://github.com/robjhyndman/fpp"
+  },
+  {
+    "package": "fpp2",
+    "url": "https://github.com/robjhyndman/fpp2-package"
+  },
+  {
+    "package": "fpp3",
+    "url": "https://github.com/robjhyndman/fpp3-package"
+  },
+  {
+    "package": "hdrcde",
+    "url": "https://github.com/robjhyndman/hdrcde"
+  },
+  {
+    "package": "Mcomp",
+    "url": "https://github.com/robjhyndman/Mcomp"
+  },
+  {
+    "package": "MEFM",
+    "url": "https://github.com/robjhyndman/MEFM-package"
+  },
+  {
+    "package": "monash",
+    "url": "https://github.com/numbats/monash"
+  },
+  {
+    "package": "thief",
+    "url": "https://github.com/robjhyndman/thief"
+  },
+  {
+    "package": "tscompdata",
+    "url": "https://github.com/robjhyndman/tscompdata"
+  },
+  {
+    "package": "tsfeatures",
+    "url": "https://github.com/robjhyndman/tsfeatures"
+  },
+  {
+    "package": "cricketdata",
+    "url": "https://github.com/ropenscilabs/cricketdata"
+  },
+  {
+    "package": "ozbabynames",
+    "url": "https://github.com/ropenscilabs/ozbabynames"
+  },
+  {
+    "package": "rcademy",
+    "url": "https://github.com/ropenscilabs/rcademy"
+  },
+  {
+    "package": "gravitas",
+    "url": "https://github.com/sayani07/gravitas"
+  },
+  {
+    "package": "lookout",
+    "url": "https://github.com/sevvandi/lookout"
+  },
+  {
+    "package": "seer",
+    "url": "https://github.com/thiyangt/seer"
+  },
+  {
+    "package": "fable",
+    "url": "https://github.com/tidyverts/fable"
+  },
+  {
+    "package": "fabletools",
+    "url": "https://github.com/tidyverts/fabletools"
+  },
+  {
+    "package": "feasts",
+    "url": "https://github.com/tidyverts/feasts"
+  },
+  {
+    "package": "tsibble",
+    "url": "https://github.com/tidyverts/tsibble"
+  },
+  {
+    "package": "tsibbledata",
+    "url": "https://github.com/tidyverts/tsibbledata"
+  },
+  {
+    "package": "bfast",
+    "url": "https://github.com/verbe039/bfast"
+  },
+  {
+    "package": "gratis",
+    "url": "https://github.com/ykang/gratis"
+  },
+  {
+    "package": "fds"
+  },
+  {
+    "package": "rainbow"
+  },
+  {
+    "package": "stR"
+  },
+  {
+    "package": "ftsa"
+  },
+  {
+    "package": "smoothAPC"
+  },
+  {
+    "package": "emma"
+  }
 ]
