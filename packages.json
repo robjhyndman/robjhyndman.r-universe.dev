@@ -164,21 +164,11 @@
     "url": "https://github.com/ykang/gratis"
   },
   {
-    "package": "fds"
+    "package": "stR",
+    "url": "https://bitbucket.org/alexanderdokumentov/strpackage"
   },
   {
-    "package": "rainbow"
-  },
-  {
-    "package": "stR"
-  },
-  {
-    "package": "ftsa"
-  },
-  {
-    "package": "smoothAPC"
-  },
-  {
-    "package": "emma"
+    "package": "smoothAPC",
+    "url": "https://bitbucket.org/alexanderdokumentov/smoothapcpackage"
   }
 ]

@@ -81,12 +81,20 @@ get_rjh_packages <- function(github) {
     pull(github) %>%
     get_meta_github()
 
-  # Add URLs
+  # Combine meta data and add urls
   packages <- packages %>%
+    left_join(
+      bind_rows(cran_meta, github_meta),
+      by="package"
+    ) %>%
     mutate(
       github_url = if_else(is.na(github), NA_character_,
-                           paste0("https://github.com/",github))
-    )
+                           paste0("https://github.com/",github)),
+      url = if_else(!is.na(github_url), github_url, url)
+    ) %>%
+    select(package, url) %>%
+    filter(!is.na(url))
+    
 
     # Save result and return it
   saveRDS(packages, file=here::here("packages.rds"))

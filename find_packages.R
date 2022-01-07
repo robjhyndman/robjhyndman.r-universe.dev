@@ -45,6 +45,7 @@ github <- c(
   "tidyverts/tsibbledata",
   "verbe039/bfast",
   "ykang/gratis",
+  "AndriSignorell/DescTools",
   NULL
 )
 get_rjh_packages(github) %>%
@@ -59,6 +60,6 @@ get_rjh_packages(github) %>%
     "robets"
   )) %>%
   # Construct JSON file
-  transmute(package=package, url=github_url, subdir=NA_character_) %>%
+  transmute(package=package, url=url, subdir=NA_character_) %>%
   jsonlite::write_json("packages.json", pretty=TRUE)
 
