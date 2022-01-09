@@ -1,65 +1,28 @@
-library(tidyverse)
-source("software_functions.R")
+library(dplyr)
+library(stringr)
 
 # Github packages I've coauthored
-github <- c(
-  "AndriSignorell/DescTools",
-  "AU-BURGr/ozdata",
-  "earowang/hts",
-  "earowang/sugrrants",
-  "eddelbuettel/binb",
-  "FinYang/tsdl",
-  "haghbinh/sfar",
-  "jforbes14/eechidna",
-  "mitchelloharawild/fasster",
-  "mitchelloharawild/vitae",
-  "numbats/monash",
-  "pridiltal/oddstream",
-  "pridiltal/oddwater",
-  "pridiltal/stray",
-  "robjhyndman/addb",
-  "robjhyndman/anomalous",
-  "robjhyndman/compenginets",
-  "robjhyndman/cricketdata",
-  "robjhyndman/demography",
-  "robjhyndman/expsmooth",
-  "robjhyndman/fma",
-  "robjhyndman/forecast",
-  "robjhyndman/fpp",
-  "robjhyndman/fpp2-package",
-  "robjhyndman/fpp3-package",
-  "robjhyndman/hdrcde",
-  "robjhyndman/Mcomp",
-  "robjhyndman/MEFM-package",
-  "robjhyndman/ozbabynames",
-  "robjhyndman/rcademy",
-  "robjhyndman/thief",
-  "robjhyndman/tscompdata",
-  "robjhyndman/tsfeatures",
-  "sayani07/gravitas",
-  "sevvandi/lookout",
-  "thiyangt/seer",
-  "tidyverts/fable",
-  "tidyverts/fabletools",
-  "tidyverts/feasts",
-  "tidyverts/tsibble",
-  "tidyverts/tsibbledata",
-  "verbe039/bfast",
-  "ykang/gratis",
-  NULL
-)
-get_rjh_packages(github) %>%
-  # Exclude packages I haven't had much to do with or are outdated
-  filter(!package %in% c(
+github_repos <- read.table("https://raw.githubusercontent.com/robjhyndman/CV/master/github_r_repos.txt")$V1
+packages <- pkgmeta::get_meta(cran_author = "Hyndman", github_repos = github_repos) 
+# Exclude packages I haven't had much to do with or are outdated
+packages <- packages %>%
+  filter(!(package %in% c(
     "anomalous",
-    "bayesforecast",
     "DescTools",
-    "fracdiff",
-    "nortsTest",
+    "robets",
     "rmarkdown",
-    "robets"
-  )) %>%
-  # Construct JSON file
+    "fracdiff",
+    "nortsTest"
+  )))
+
+# Keep bitbucket and github packages
+packages <- packages %>%
+  filter(!is.na(github_url) | str_detect(url, "bitbucket")) %>%
+  mutate(url = if_else(!is.na(github_url), github_url, url)) %>%
+  select(package, url)
+
+# Construct JSON file
+packages %>%
   transmute(package=package, url=url, subdir=NA_character_) %>%
   jsonlite::write_json("packages.json", pretty=TRUE)
 

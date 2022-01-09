@@ -1,59 +1,15 @@
 [
   {
-    "package": "ozdata",
-    "url": "https://github.com/AU-BURGr/ozdata"
+    "package": "addb",
+    "url": "https://github.com/robjhyndman/addb"
   },
   {
-    "package": "hts",
-    "url": "https://github.com/earowang/hts"
-  },
-  {
-    "package": "sugrrants",
-    "url": "https://github.com/earowang/sugrrants"
+    "package": "bfast",
+    "url": "https://github.com/verbe039/bfast"
   },
   {
     "package": "binb",
     "url": "https://github.com/eddelbuettel/binb"
-  },
-  {
-    "package": "tsdl",
-    "url": "https://github.com/FinYang/tsdl"
-  },
-  {
-    "package": "Rsfar",
-    "url": "https://github.com/haghbinh/sfar"
-  },
-  {
-    "package": "eechidna",
-    "url": "https://github.com/jforbes14/eechidna"
-  },
-  {
-    "package": "fasster",
-    "url": "https://github.com/mitchelloharawild/fasster"
-  },
-  {
-    "package": "vitae",
-    "url": "https://github.com/mitchelloharawild/vitae"
-  },
-  {
-    "package": "monash",
-    "url": "https://github.com/numbats/monash"
-  },
-  {
-    "package": "oddstream",
-    "url": "https://github.com/pridiltal/oddstream"
-  },
-  {
-    "package": "oddwater",
-    "url": "https://github.com/pridiltal/oddwater"
-  },
-  {
-    "package": "stray",
-    "url": "https://github.com/pridiltal/stray"
-  },
-  {
-    "package": "addb",
-    "url": "https://github.com/robjhyndman/addb"
   },
   {
     "package": "compenginets",
@@ -68,72 +24,12 @@
     "url": "https://github.com/robjhyndman/demography"
   },
   {
+    "package": "eechidna",
+    "url": "https://github.com/jforbes14/eechidna"
+  },
+  {
     "package": "expsmooth",
     "url": "https://github.com/robjhyndman/expsmooth"
-  },
-  {
-    "package": "fma",
-    "url": "https://github.com/robjhyndman/fma"
-  },
-  {
-    "package": "forecast",
-    "url": "https://github.com/robjhyndman/forecast"
-  },
-  {
-    "package": "fpp",
-    "url": "https://github.com/robjhyndman/fpp"
-  },
-  {
-    "package": "fpp2",
-    "url": "https://github.com/robjhyndman/fpp2-package"
-  },
-  {
-    "package": "fpp3",
-    "url": "https://github.com/robjhyndman/fpp3-package"
-  },
-  {
-    "package": "hdrcde",
-    "url": "https://github.com/robjhyndman/hdrcde"
-  },
-  {
-    "package": "Mcomp",
-    "url": "https://github.com/robjhyndman/Mcomp"
-  },
-  {
-    "package": "MEFM",
-    "url": "https://github.com/robjhyndman/MEFM-package"
-  },
-  {
-    "package": "ozbabynames",
-    "url": "https://github.com/robjhyndman/ozbabynames"
-  },
-  {
-    "package": "rcademy",
-    "url": "https://github.com/robjhyndman/rcademy"
-  },
-  {
-    "package": "thief",
-    "url": "https://github.com/robjhyndman/thief"
-  },
-  {
-    "package": "tscompdata",
-    "url": "https://github.com/robjhyndman/tscompdata"
-  },
-  {
-    "package": "tsfeatures",
-    "url": "https://github.com/robjhyndman/tsfeatures"
-  },
-  {
-    "package": "gravitas",
-    "url": "https://github.com/sayani07/gravitas"
-  },
-  {
-    "package": "lookout",
-    "url": "https://github.com/sevvandi/lookout"
-  },
-  {
-    "package": "seer",
-    "url": "https://github.com/thiyangt/seer"
   },
   {
     "package": "fable",
@@ -144,8 +40,124 @@
     "url": "https://github.com/tidyverts/fabletools"
   },
   {
+    "package": "fasster",
+    "url": "https://github.com/mitchelloharawild/fasster"
+  },
+  {
     "package": "feasts",
     "url": "https://github.com/tidyverts/feasts"
+  },
+  {
+    "package": "fma",
+    "url": "https://github.com/robjhyndman/fma"
+  },
+  {
+    "package": "forecast",
+    "url": "https://github.com/robjhyndman/forecast"
+  },
+  {
+    "package": "fpp2",
+    "url": "https://github.com/robjhyndman/fpp2-package"
+  },
+  {
+    "package": "fpp3",
+    "url": "https://github.com/robjhyndman/fpp3-package"
+  },
+  {
+    "package": "gratis",
+    "url": "https://github.com/ykang/gratis"
+  },
+  {
+    "package": "gravitas",
+    "url": "https://github.com/sayani07/gravitas"
+  },
+  {
+    "package": "hdrcde",
+    "url": "https://github.com/robjhyndman/hdrcde"
+  },
+  {
+    "package": "hts",
+    "url": "https://github.com/earowang/hts"
+  },
+  {
+    "package": "lookout",
+    "url": "https://github.com/sevvandi/lookout"
+  },
+  {
+    "package": "Mcomp",
+    "url": "https://github.com/robjhyndman/Mcomp"
+  },
+  {
+    "package": "MEFM",
+    "url": "https://github.com/robjhyndman/MEFM-package"
+  },
+  {
+    "package": "monash",
+    "url": "https://github.com/numbats/monash"
+  },
+  {
+    "package": "oddstream",
+    "url": "https://github.com/pridiltal/oddstream"
+  },
+  {
+    "package": "oddwater",
+    "url": "https://github.com/pridiltal/oddwater"
+  },
+  {
+    "package": "ozbabynames",
+    "url": "https://github.com/ropenscilabs/ozbabynames"
+  },
+  {
+    "package": "ozdata",
+    "url": "https://github.com/AU-BURGr/ozdata"
+  },
+  {
+    "package": "pkgmeta",
+    "url": "https://github.com/robjhyndman/pkgmeta"
+  },
+  {
+    "package": "rcademy",
+    "url": "https://github.com/ropenscilabs/rcademy"
+  },
+  {
+    "package": "Rsfar",
+    "url": "https://github.com/haghbinh/sfar"
+  },
+  {
+    "package": "seer",
+    "url": "https://github.com/thiyangt/seer"
+  },
+  {
+    "package": "smoothAPC",
+    "url": "https://bitbucket.org/alexanderdokumentov/smoothapcpackage"
+  },
+  {
+    "package": "stR",
+    "url": "https://bitbucket.org/alexanderdokumentov/strpackage"
+  },
+  {
+    "package": "stray",
+    "url": "https://github.com/pridiltal/stray"
+  },
+  {
+    "package": "sugrrants",
+    "url": "https://github.com/earowang/sugrrants"
+  },
+  {
+    "package": "thief",
+    "url": "https://github.com/robjhyndman/thief"
+  },
+  {
+    "package": "tscompdata",
+    "url": "https://github.com/robjhyndman/tscompdata"
+  },
+  {
+    "package": "tsdl",
+    "url": "https://github.com/FinYang/tsdl"
+  },
+  {
+    "package": "tsfeatures",
+    "url": "https://github.com/robjhyndman/tsfeatures"
   },
   {
     "package": "tsibble",
@@ -156,19 +168,7 @@
     "url": "https://github.com/tidyverts/tsibbledata"
   },
   {
-    "package": "bfast",
-    "url": "https://github.com/verbe039/bfast"
-  },
-  {
-    "package": "gratis",
-    "url": "https://github.com/ykang/gratis"
-  },
-  {
-    "package": "stR",
-    "url": "https://bitbucket.org/alexanderdokumentov/strpackage"
-  },
-  {
-    "package": "smoothAPC",
-    "url": "https://bitbucket.org/alexanderdokumentov/smoothapcpackage"
+    "package": "vitae",
+    "url": "https://github.com/mitchelloharawild/vitae"
   }
 ]
