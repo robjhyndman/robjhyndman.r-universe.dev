@@ -23,6 +23,7 @@ packages <- packages %>%
 
 # Construct JSON file
 packages %>%
+  arrange(package) %>%
   transmute(package=package, url=url, subdir=NA_character_) %>%
   jsonlite::write_json("packages.json", pretty=TRUE)
 
