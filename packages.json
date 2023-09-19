@@ -1,5 +1,21 @@
 [
   {
+    "package": "MEFM",
+    "url": "https://github.com/robjhyndman/MEFM-package"
+  },
+  {
+    "package": "Mcomp",
+    "url": "https://github.com/robjhyndman/Mcomp"
+  },
+  {
+    "package": "Rsfar",
+    "url": "https://github.com/haghbinh/sfar"
+  },
+  {
+    "package": "TACforecasting",
+    "url": "https://github.com/robjhyndman/TACforecasting"
+  },
+  {
     "package": "addb",
     "url": "https://github.com/robjhyndman/addb"
   },
@@ -14,6 +30,10 @@
   {
     "package": "compenginets",
     "url": "https://github.com/robjhyndman/compenginets"
+  },
+  {
+    "package": "conduits",
+    "url": "https://github.com/PuwasalaG/conduits"
   },
   {
     "package": "cricketdata",
@@ -64,12 +84,16 @@
     "url": "https://github.com/robjhyndman/fpp3-package"
   },
   {
+    "package": "gghdr",
+    "url": "https://github.com/Sayani07/gghdr"
+  },
+  {
     "package": "gratis",
     "url": "https://github.com/ykang/gratis"
   },
   {
     "package": "gravitas",
-    "url": "https://github.com/sayani07/gravitas"
+    "url": "https://github.com/Sayani07/gravitas"
   },
   {
     "package": "hdrcde",
@@ -84,16 +108,12 @@
     "url": "https://github.com/sevvandi/lookout"
   },
   {
-    "package": "Mcomp",
-    "url": "https://github.com/robjhyndman/Mcomp"
-  },
-  {
-    "package": "MEFM",
-    "url": "https://github.com/robjhyndman/MEFM-package"
-  },
-  {
     "package": "monash",
     "url": "https://github.com/numbats/monash"
+  },
+  {
+    "package": "oddnet",
+    "url": "https://github.com/sevvandi/oddnet"
   },
   {
     "package": "oddstream",
@@ -120,8 +140,8 @@
     "url": "https://github.com/ropenscilabs/rcademy"
   },
   {
-    "package": "Rsfar",
-    "url": "https://github.com/haghbinh/sfar"
+    "package": "rticles",
+    "url": "https://github.com/rstudio/rticles"
   },
   {
     "package": "seer",
@@ -170,5 +190,9 @@
   {
     "package": "vitae",
     "url": "https://github.com/mitchelloharawild/vitae"
+  },
+  {
+    "package": "vital",
+    "url": "https://github.com/robjhyndman/vital"
   }
 ]
