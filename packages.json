@@ -21,7 +21,7 @@
   },
   {
     "package": "bfast",
-    "url": "https://github.com/verbe039/bfast"
+    "url": "https://github.com/bfast2/bfast"
   },
   {
     "package": "binb",
@@ -54,6 +54,10 @@
   {
     "package": "fable",
     "url": "https://github.com/tidyverts/fable"
+  },
+  {
+    "package": "fable.binary",
+    "url": "https://github.com/tidyverts/fable.binary"
   },
   {
     "package": "fabletools",
@@ -194,5 +198,9 @@
   {
     "package": "vital",
     "url": "https://github.com/robjhyndman/vital"
+  },
+  {
+    "package": "weird",
+    "url": "https://github.com/robjhyndman/weird-package"
   }
 ]
