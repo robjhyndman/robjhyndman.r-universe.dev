@@ -152,12 +152,8 @@
     "url": "https://github.com/thiyangt/seer"
   },
   {
-    "package": "smoothAPC",
-    "url": "https://bitbucket.org/alexanderdokumentov/smoothapcpackage"
-  },
-  {
     "package": "stR",
-    "url": "https://bitbucket.org/alexanderdokumentov/strpackage"
+    "url": "https://bitbucket.org/alexanderdokumentov/strpackage/stR"
   },
   {
     "package": "stray",
