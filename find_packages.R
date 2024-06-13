@@ -35,7 +35,7 @@ rjh_packages <- function() {
       select(package, url)
     # Fix Alex's package URLs
     packages <- packages |>
-      mutate(url = if_else(package == "stR", "https://bitbucket.org/alexanderdokumentov/strpackage/src/master/stR/", url))  |>
+      mutate(url = if_else(package == "stR", "https://bitbucket.org/alexanderdokumentov/strpackage/src/master/stR", url))  |>
       filter(package != "smoothAPC")
     # Save result
     saveRDS(packages, file = here::here("packages.rds"))
