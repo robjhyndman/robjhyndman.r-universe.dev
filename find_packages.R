@@ -14,7 +14,6 @@ rjh_packages <- function() {
     return(packages)
   } else {
     # Create new packages tibble
-    # Github repos
     github_repos <- read.table("https://raw.githubusercontent.com/robjhyndman/CV/master/github_r_repos.txt")$V1
     packages <- pkgmeta::get_meta(cran_author = "Hyndman", github_repos = github_repos)
     # Exclude packages I haven't had much to do with or are outdated
@@ -28,15 +27,10 @@ rjh_packages <- function() {
         "rmarkdown",
         "robets"
       )))
-    # Keep bitbucket and github packages
+    # Keep only packages with github repos
     packages <- packages |>
-      filter(!is.na(github_url) | str_detect(url, "bitbucket")) |>
       mutate(url = if_else(!is.na(github_url), github_url, url)) |>
-      select(package, url)
-    # Fix Alex's package URLs
-    packages <- packages |>
-      mutate(url = if_else(package == "stR", "https://bitbucket.org/alexanderdokumentov/strpackage/src/master/stR", url))  |>
-      filter(package != "smoothAPC")
+      filter(!is.na(github_url))
     # Save result
     saveRDS(packages, file = here::here("packages.rds"))
     return(packages)
