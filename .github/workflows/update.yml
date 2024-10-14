@@ -28,7 +28,6 @@ jobs:
             any::remotes
             any::stringr
             any::tibble
-            any::utils
       - name: Check out repository
         uses: actions/checkout@v4
 
