@@ -44,6 +44,10 @@
     "url": "https://github.com/robjhyndman/demography"
   },
   {
+    "package": "distributional",
+    "url": "https://github.com/mitchelloharawild/distributional"
+  },
+  {
     "package": "eechidna",
     "url": "https://github.com/jforbes14/eechidna"
   },
@@ -129,7 +133,7 @@
   },
   {
     "package": "ozbabynames",
-    "url": "https://github.com/ropenscilabs/ozbabynames"
+    "url": "https://github.com/robjhyndman/ozbabynames"
   },
   {
     "package": "ozdata",
@@ -141,7 +145,7 @@
   },
   {
     "package": "rcademy",
-    "url": "https://github.com/ropenscilabs/rcademy"
+    "url": "https://github.com/robjhyndman/rcademy"
   },
   {
     "package": "rticles",
@@ -150,6 +154,10 @@
   {
     "package": "seer",
     "url": "https://github.com/thiyangt/seer"
+  },
+  {
+    "package": "stR",
+    "url": "https://github.com/robjhyndman/stR"
   },
   {
     "package": "stray",
