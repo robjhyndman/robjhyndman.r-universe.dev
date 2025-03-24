@@ -36,6 +36,10 @@
     "url": "https://github.com/PuwasalaG/conduits"
   },
   {
+    "package": "conformalForecast",
+    "url": "https://github.com/xqnwang/conformalForecast"
+  },
+  {
     "package": "cricketdata",
     "url": "https://github.com/robjhyndman/cricketdata"
   },
