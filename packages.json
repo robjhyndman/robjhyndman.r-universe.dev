@@ -160,6 +160,10 @@
     "url": "https://github.com/thiyangt/seer"
   },
   {
+    "package": "spiderorchid",
+    "url": "https://github.com/numbats/spiderorchid"
+  },
+  {
     "package": "stR",
     "url": "https://github.com/robjhyndman/stR"
   },
