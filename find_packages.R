@@ -2,13 +2,13 @@ library(dplyr)
 library(stringr)
 
 # Install pkgmeta
-remotes::install_github("robjhyndman/pkgmeta")
+#remotes::install_github("robjhyndman/pkgmeta")
 
 # Get most recent packages file from my CV
 github_repos <- read.table("https://raw.githubusercontent.com/robjhyndman/CV/master/github_r_repos.txt")$V1
 packages <- pkgmeta::get_meta(cran_author = "Hyndman", github_repos = github_repos)
 
-# Exclude packages I haven't had much to do with or are outdated
+# Exclude packages I haven't had much to do with or are outdated or are archived
 packages <- packages |>
   filter(!(package %in% c(
     "anomalous",
@@ -17,7 +17,9 @@ packages <- packages |>
     "fracdiff",
     "nortsTest",
     "rmarkdown",
-    "robets"
+    "robets",
+    "fpp",
+    "smoothAPC"
   )))
 
 # Keep only packages with github repos
