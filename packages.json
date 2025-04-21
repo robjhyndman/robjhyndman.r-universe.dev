@@ -28,6 +28,10 @@
     "url": "https://github.com/eddelbuettel/binb"
   },
   {
+    "package": "calcal",
+    "url": "https://github.com/robjhyndman/calcal"
+  },
+  {
     "package": "compenginets",
     "url": "https://github.com/robjhyndman/compenginets"
   },
