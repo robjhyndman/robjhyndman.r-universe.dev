@@ -104,6 +104,10 @@
     "url": "https://github.com/Sayani07/gghdr"
   },
   {
+    "package": "ggtime",
+    "url": "https://github.com/mitchelloharawild/ggtime"
+  },
+  {
     "package": "gratis",
     "url": "https://github.com/ykang/gratis"
   },
