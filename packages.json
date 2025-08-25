@@ -108,6 +108,10 @@
     "url": "https://github.com/mitchelloharawild/ggtime"
   },
   {
+    "package": "ggtime",
+    "url": "https://github.com/tidyverts/ggtime"
+  },
+  {
     "package": "gratis",
     "url": "https://github.com/ykang/gratis"
   },
