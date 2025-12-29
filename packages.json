@@ -152,16 +152,8 @@
     "url": "https://github.com/robjhyndman/ozbabynames"
   },
   {
-    "package": "ozdata",
-    "url": "https://github.com/AU-BURGr/ozdata"
-  },
-  {
     "package": "pkgmeta",
     "url": "https://github.com/robjhyndman/pkgmeta"
-  },
-  {
-    "package": "rcademy",
-    "url": "https://github.com/robjhyndman/rcademy"
   },
   {
     "package": "rticles",
