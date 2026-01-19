@@ -93,11 +93,11 @@
   },
   {
     "package": "fpp2",
-    "url": "https://github.com/robjhyndman/fpp2-package"
+    "url": "https://github.com/robjhyndman/fpp2"
   },
   {
     "package": "fpp3",
-    "url": "https://github.com/robjhyndman/fpp3-package"
+    "url": "https://github.com/robjhyndman/fpp3"
   },
   {
     "package": "gghdr",
@@ -213,6 +213,6 @@
   },
   {
     "package": "weird",
-    "url": "https://github.com/robjhyndman/weird-package"
+    "url": "https://github.com/robjhyndman/weird"
   }
 ]
