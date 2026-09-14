@@ -124,6 +124,10 @@
     "url": "https://github.com/earowang/hts"
   },
   {
+    "package": "icons",
+    "url": "https://github.com/mitchelloharawild/icons"
+  },
+  {
     "package": "lookout",
     "url": "https://github.com/sevvandi/lookout"
   },
