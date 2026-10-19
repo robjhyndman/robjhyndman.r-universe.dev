@@ -2,7 +2,7 @@ library(dplyr)
 library(stringr)
 
 # Install pkgmeta
-remotes::install_github("robjhyndman/pkgmeta")
+pak::pak("robjhyndman/pkgmeta")
 
 # Get most recent packages file from my CV
 github_repos <- read.table(

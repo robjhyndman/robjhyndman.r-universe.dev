@@ -132,6 +132,10 @@
     "url": "https://github.com/sevvandi/lookout"
   },
   {
+    "package": "mixtime",
+    "url": "https://github.com/mitchelloharawild/mixtime"
+  },
+  {
     "package": "monash",
     "url": "https://github.com/numbats/monash"
   },
